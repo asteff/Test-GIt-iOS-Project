@@ -21,6 +21,7 @@
 		566A7436197F94B6003FD9AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 566A7418197F94B6003FD9AE /* UIKit.framework */; };
 		566A743E197F94B6003FD9AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 566A743C197F94B6003FD9AE /* InfoPlist.strings */; };
 		566A7440197F94B6003FD9AE /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A743F197F94B6003FD9AE /* Git_TestTests.m */; };
+		566A744B1980604A003FD9AE /* ASTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A744A1980604A003FD9AE /* ASTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		566A743B197F94B6003FD9AE /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		566A743D197F94B6003FD9AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		566A743F197F94B6003FD9AE /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		566A74491980604A003FD9AE /* ASTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASTest.h; sourceTree = "<group>"; };
+		566A744A1980604A003FD9AE /* ASTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				566A7424197F94B6003FD9AE /* ASAppDelegate.m */,
 				566A7426197F94B6003FD9AE /* Main.storyboard */,
 				566A7429197F94B6003FD9AE /* ASViewController.h */,
+				566A74491980604A003FD9AE /* ASTest.h */,
+				566A744A1980604A003FD9AE /* ASTest.m */,
 				566A742A197F94B6003FD9AE /* ASViewController.m */,
 				566A742C197F94B6003FD9AE /* Images.xcassets */,
 				566A741B197F94B6003FD9AE /* Supporting Files */,
@@ -253,6 +258,7 @@
 				566A7425197F94B6003FD9AE /* ASAppDelegate.m in Sources */,
 				566A742B197F94B6003FD9AE /* ASViewController.m in Sources */,
 				566A7421197F94B6003FD9AE /* main.m in Sources */,
+				566A744B1980604A003FD9AE /* ASTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
